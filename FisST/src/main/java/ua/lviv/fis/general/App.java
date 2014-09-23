@@ -15,6 +15,7 @@ public class App
     	
     	userDao.addUser(new User("Yuriy", "Anax@gmail.com"));
     	userDao.addUser(new User("Anax", "blabla@gmail.com"));
+        userDao.addUser(new User("Vitman", "vit@ukr.net"));
     	
     	List<User> users = userDao.getAll();
     	
